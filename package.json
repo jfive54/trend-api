@@ -1,0 +1,39 @@
+{
+  "name": "trend-api",
+  "version": "1.0.0",
+  "description": "trend timeline api",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "type": "module",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^2.0.0",
+    "google-trends-api": "^4.9.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "core-js": "^3.19.1",
+    "jest": "^27.3.1"
+  },
+  "scripts": {
+    "start": "functions-framework --target=trendTimeline",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfive54/trend-api.git"
+  },
+  "keywords": [
+    "trend"
+  ],
+  "author": "jmeury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfive54/trend-api/issues"
+  },
+  "homepage": "https://github.com/jfive54/trend-api#readme"
+}
